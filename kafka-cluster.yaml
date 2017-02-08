@@ -40,6 +40,8 @@ spec:
               value: "72"
             - name: NEW_RELIC_ENABLED
               value: "true"
+            - name: JMX_PORT
+              value: "9999"
           ports:
             - containerPort: 9092
               name: broker
